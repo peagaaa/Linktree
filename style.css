@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", serif;
+}
+
+.container_main{
+    background: url('./Assets/img/background.jpg') no-repeat top;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#img-avatar-style{
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+.container-about-me{
+
+}
+
+.user-name{
+    color: white;
+    font-size: 50px;
+}
+
+.div-container-item{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 75vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    margin: 30px 0px;
+}
+
+
+li{
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+}
