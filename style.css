@@ -21,6 +21,12 @@
     border-radius: 100%;
     margin-bottom: 30px;
 }
+
+#animation-container{
+    font-size: 70px;
+    color: white;
+}
+
 .container-about-me{
 
 }
